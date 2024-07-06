@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "minecraft:gunpowder" },
+    { "item": "minecraft:quartz" }
+  ],
+  "result": {
+    "item": "ae2:sky_dust",
+    "count": 4
+  }
+}

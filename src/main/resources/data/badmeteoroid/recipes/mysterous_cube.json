@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#d#",
+    "pmp",
+    "#p#"
+  ],
+  "key": {
+    "#": {
+      "item": "ae2:sky_stone_block"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "m": {
+      "item": "ae2:controller"
+    },
+    "p": {
+      "item": "minecraft:heavy_weighted_pressure_plate"
+    }
+  },
+  "result": {
+    "item": "ae2:mysterious_cube"
+  }
+}
