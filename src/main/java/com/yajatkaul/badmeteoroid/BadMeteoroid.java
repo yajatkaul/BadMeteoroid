@@ -1,6 +1,5 @@
 package com.yajatkaul.badmeteoroid;
 
-import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -14,6 +13,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+import com.mojang.logging.LogUtils;
+
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(BadMeteoroid.MOD_ID)
@@ -64,4 +65,6 @@ public class BadMeteoroid
 
         }
     }
+
+
 }
