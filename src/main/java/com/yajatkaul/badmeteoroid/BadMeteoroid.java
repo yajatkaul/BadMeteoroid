@@ -1,6 +1,6 @@
 package com.yajatkaul.badmeteoroid;
 
-import net.minecraftforge.fml.common.Mod;
+import net.neoforged.fml.common.Mod;
 
 @Mod(BadMeteoroid.MOD_ID)
 public class BadMeteoroid {
