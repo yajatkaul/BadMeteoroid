@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "badmeteoroid",
+  "version": "${version}",
+  "name": "BadMeteoroid",
+  "description": "",
+  "authors": [
+    "Yajat Kaul"
+  ],
+  "contact": {
+    "homepage": "https://github.com/yajatkaul"
+  },
+  "license": "MIT",
+  "icon": "assets/badmeteoroid/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.yajatkaul.badmeteoroid.fabric.BadmeteoroidFabric"
+    ],
+    "client": [
+      "com.github.yajatkaul.badmeteoroid.fabric.client.BadmeteoroidFabricClient"
+    ]
+  },
+  "mixins": [
+    "badmeteoroid.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
