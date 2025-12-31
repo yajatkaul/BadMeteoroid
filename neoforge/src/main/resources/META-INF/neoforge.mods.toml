@@ -27,6 +27,12 @@ versionRange = "[1.21.1,)"
 ordering = "NONE"
 side = "BOTH"
 
+[[dependencies.badmeteoroid]]
+modId="ae2"
+mandatory=true
+versionRange="[15.2.8,)" # Adjust the version range as necessary
+ordering="AFTER"
+side="BOTH"
 
 [[mixins]]
 config = "badmeteoroid.mixins.json"
